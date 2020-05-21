@@ -15,8 +15,6 @@ class String
   end
 
   def count_sentences
-    sentence=[]
-    sentence << self.split(".")
-    sentence.count
+    self.split(".")
   end
 end
